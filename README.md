@@ -6,3 +6,9 @@ menu-items tables
 - name string, required (cant be empty), unique, make searching by name fast!
 - price: floating point, not required
 - available: boolean, default to false
+
+clients table
+
+- id: pk, uuid, string
+- email: string, unique
+- name: string, indexed
